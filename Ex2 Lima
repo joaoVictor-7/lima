@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="button.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action=""nethod= "">
+        <label for="none">login:</label>
+        <br>
+        <input type="text" id="none"required/>
+<br>
+        <label for="password">Senha:</label>
+        <br>
+        <input type="password" id="password"required/>
+<br>
+        <label for="Status">Status</label>
+        <select id="Status">
+        <option>Inativo</option>
+        <option>Ativo</option>
+</select>
+<fieldset>
+    <legend>Tipo</legend>
+    <input type="radio" id="tec" name="tipo">
+    <label for="tec">Tecnico</label>
+
+    <input type="radio" id="prof" name="tipo">
+    <label for="prof">Professor</label>
+
+    <input type="radio" id="aluno" name="tipo">
+    <label for="aluno">Aluno</label>
+    <br>
+</fieldset>
+    <label for="datadecriação">Data de criação</label>
+    <br>
+    <input type="date" id="datadecriação"required/>
+<br>
+<fieldset>
+    <legend>Perfil</legend>
+    <input type="radio" id="conv" name="Perfil">
+    <label for="conv">Convidado</label>
+
+    <input type="radio" id="adm" name="perfil">
+    <label for="adm">Administrador</label>
+    <br>
+</fieldset>
+<label for="info">Observações:</label>  
+        <br>
+        <textarea id="info"></textarea>
+        <br>
+
+            <input type="checkbox" id="compras">
+            <label for="compras">Compras</label>
+
+            <input type="checkbox" id="biblio">
+            <label for="biblio">Biblioteca</label>
+
+            <input type="checkbox" id="acadêmico">
+            <label for="acadêmico">acadêmico</label>
+            <br>
+            <legend>Tipo</legend>
+            <input type="checkbox" id="documentação">
+            <label for="documentação">documentação</label>
+
+            <input type="checkbox" id="recursos humanos">
+            <label for="recursos humanos">Recursos Humanos</label>
+<br>
+<br>
+<br>
+<button type="button" class="button">excluir</button>
+
+<button type="button" class="button">cadastrar</button>
+</form>
+</body>
+</html>
