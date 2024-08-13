@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario elaborado</title>
+</head>
+<body style="background-color:rgb(225, 207, 188);">
+   
+   <form action=""nethod= "">
+    <h1>Formulario</h1>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="none">Nome:</label>
+        <br>
+        <input type="text" id="none"required/>
+        <br>
+        <label for="none">Endereço:</label>
+        <br>
+        <input type="text" id="none"required/>
+        <br>
+        <label for="none">Cidade:</label>
+        <br>
+        <input type="text" id="none"required/>
+        <br>
+        <label for="Estado">Estado</label>
+        <select id="Estado">
+             <option>São Paulo</option>
+             <option>Rio de janeiro</option>
+             <option>Minas</option>
+             <option>Bahia</option>
+            </select>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Dados profissionais</legend>
+        Natureza do Cargo
+        <br>
+    <input type="radio" id="gerencia" name="Natureza do Cargo">
+    <label for="gerencia">Gerência</label>
+
+    <input type="radio" id="financeiro" name="Natureza do Cargo">
+    <label for="financeiro">Financeiro</label>
+
+    <input type="radio" id="recepção" name="Natureza do Cargo">
+    <label for="recepção">Recepção</label>
+
+    <input type="radio" id="adm" name="Natureza do Cargo">
+    <label for="adm">Administrativo</label>
+
+    <input type="radio" id="juridico" name="Natureza do Cargo">
+    <label for="juridico">Jurídico</label>
+    <br>
+    Área de interesse
+    <br>
+    <input type="checkbox" id="computação">
+            <label for="computação">Computação</label>
+
+            <input type="checkbox" id="Biologia">
+            <label for="Biologia">Biologia</label>
+
+            <input type="checkbox" id="Meio Ambiente">
+            <label for="Meio Ambiente">Meio Ambiente</label>
+            <br>
+            <legend>Tipo</legend>
+            <input type="checkbox" id="Engenharia">
+            <label for="Engenharia">Engenharia</label>
+
+            <input type="checkbox" id="Historia">
+            <label for="Historia ">Historia</label>
+            <br>
+            <textarea id="info"></textarea>
+            <label for="info">Mini-curriculo: </label>
+    </fieldset>
+    <br>
+    <br>
+    <input type="submit" value="Enviar">
+
+    <input type="submit" value="Limpar">
+</form>
+</body>
+</html>
