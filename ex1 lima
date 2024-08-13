@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="button.css" rel="styleheet"
+    <title>Document</title>
+</head>
+<body>
+    <form action=""nethod= "">
+        <label for="none">Nome:</label>
+        <br>
+        <input type="text" id="none"required/>
+<br>
+        <label for="email">E-mail:</label>
+        <br>
+        <input type="email" id="email"required/>
+<br>
+        <label for="none">Website:</label>
+        <br>
+        <input type="text" id="none"required/>
+<br>
+        <label for="info">Comentario:</label>  
+        <br>
+        <textarea id="info"></textarea>
+        <br>
+        <br>
+        Observação: Seu comentario sera publicado apos passar pelo moderador
+        <br>
+        <br>
+            <input type="submit" value="Enviar Comentario">
+</body>
+</html>
